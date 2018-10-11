@@ -10,5 +10,9 @@ class Song
     @genre = genre 
   @@all << self 
 end
+
+def all
+  @@all
+end
   
 end
